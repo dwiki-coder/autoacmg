@@ -1,0 +1,11 @@
+##fileformat=VCFv4.3
+##source=AutoACMG-Sample
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=CONSEQUENCE,Number=1,Type=String,Description="Variant consequence">
+##INFO=<ID=PROTEIN_CHANGE,Number=1,Type=String,Description="Protein change">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT
+
+chr1	55257505	rs121913523	A	G	.	PASS	GENE=BRCA2;CONSEQUENCE=stop_gained;PROTEIN_CHANGE=p.Glu974Ter	GT	0/1
+chr3	38557782	rs121908940	C	T	.	PASS	GENE=BRCA1;CONSEQUENCE=frameshift_variant;PROTEIN_CHANGE=p.Thr2122fs	GT	0/1
+chr7	117539118	rs587781268	T	C	.	PASS	GENE=PCSK9;CONSEQUENCE=missense_variant;PROTEIN_CHANGE=p.Ala474Val	GT	0/1
+chr17	7577539	rs80357717	A	T	.	PASS	GENE=BRCA1;CONSEQUENCE=nonsense;PROTEIN_CHANGE=p.Tyr1026Ter	GT	0/1

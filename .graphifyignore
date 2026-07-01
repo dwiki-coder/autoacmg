@@ -1,0 +1,15 @@
+*.md
+*.txt
+*.ipynb
+*.vcf
+*.json
+*.yml
+*.yaml
+Makefile
+Dockerfile
+docker-compose.yml
+pyproject.toml
+graphify-out/
+docs/
+data/
+*.egg-info/

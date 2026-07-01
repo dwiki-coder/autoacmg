@@ -1,0 +1,60 @@
+{
+  "report_type": "acmg_classification",
+  "tool": "AutoACMG",
+  "tool_version": "0.1.0",
+  "summary": {
+    "total_variants": 5,
+    "classifications": {
+      "Pathogenic": 2,
+      "Likely Pathogenic": 1,
+      "Uncertain Significance": 2
+    }
+  },
+  "variants": [
+    {
+      "variant": "chr1:7674232:G:A",
+      "classification": "Uncertain Significance",
+      "criteria": "PM2, PP3",
+      "pathogenic_criteria": ["PM2", "PP3"],
+      "benign_criteria": [],
+      "confidence": 0.5,
+      "gene": "BRCA1"
+    },
+    {
+      "variant": "chr2:249350221:C:T",
+      "classification": "Pathogenic",
+      "criteria": "PVS1, PM2, PP3",
+      "pathogenic_criteria": ["PVS1", "PM2", "PP3"],
+      "benign_criteria": [],
+      "confidence": 0.95,
+      "gene": "TP53"
+    },
+    {
+      "variant": "chr17:43061583:C:T",
+      "classification": "Pathogenic",
+      "criteria": "PVS1, PM2, PP3",
+      "pathogenic_criteria": ["PVS1", "PM2", "PP3"],
+      "benign_criteria": [],
+      "confidence": 0.95,
+      "gene": "BRCA1"
+    },
+    {
+      "variant": "chr19:44908824:T:A",
+      "classification": "Likely Benign",
+      "criteria": "BS1",
+      "pathogenic_criteria": [],
+      "benign_criteria": ["BS1"],
+      "confidence": 0.7,
+      "gene": "PCSK9"
+    },
+    {
+      "variant": "chr12:112175920:G:A",
+      "classification": "Pathogenic",
+      "criteria": "PVS1, PM2, PP3",
+      "pathogenic_criteria": ["PVS1", "PM2", "PP3"],
+      "benign_criteria": [],
+      "confidence": 0.95,
+      "gene": "KCNQ2"
+    }
+  ]
+}

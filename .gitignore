@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# MyPy
+.mypy_cache/
+
+# Logs
+*.log
+logs/
+
+# AutoACMG
+autoacmg_cache.db
+*.vcf.bcf
+*.vcf.csi
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep structure, not large files)
+data/*.bcf
+data/*.csi
+data/*.bed
